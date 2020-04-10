@@ -1,0 +1,302 @@
+{
+  "id": "540faa92-4a5b-478c-9892-e447082f3efd",
+  "version": "2.0",
+  "name": "pizza-spring",
+  "url": "http://localhost:8080",
+  "tests": [{
+    "id": "2a1e0f60-648b-49c0-bc00-2652e8e53fbb",
+    "name": "Command pizza",
+    "commands": [{
+      "id": "666dfa14-ba6d-473c-9c47-0d362066da51",
+      "comment": "",
+      "command": "open",
+      "target": "/pizza-spring-0.0.1-SNAPSHOT/",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "965a87f9-b249-4822-9d84-f85eab6fc3af",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=Commander",
+      "targets": [
+        ["linkText=Commander", "linkText"],
+        ["css=li:nth-child(1) > a", "css:finder"],
+        ["xpath=//a[contains(text(),'Commander')]", "xpath:link"],
+        ["xpath=//nav[@id='menu']/ul/li/a", "xpath:idRelative"],
+        ["xpath=//a[contains(@href, '/pizza-spring-0.0.1-SNAPSHOT/commande')]", "xpath:href"],
+        ["xpath=//a", "xpath:position"],
+        ["xpath=//a[contains(.,'Commander')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "40750583-3f9e-40d5-b08c-c594acdc98f7",
+      "comment": "",
+      "command": "addSelection",
+      "target": "id=pizzaId",
+      "targets": [
+        ["id=pizzaId", "id"],
+        ["name=pizzaId", "name"],
+        ["css=#pizzaId", "css:finder"],
+        ["xpath=//select[@id='pizzaId']", "xpath:attributes"],
+        ["xpath=//form[@id='commandeDto']/div/select", "xpath:idRelative"],
+        ["xpath=//select", "xpath:position"]
+      ],
+      "value": "label=Regina"
+    }, {
+      "id": "4f16fbd7-5f12-417f-8ee7-e46432b1c95d",
+      "comment": "",
+      "command": "click",
+      "target": "id=nom",
+      "targets": [
+        ["id=nom", "id"],
+        ["name=nom", "name"],
+        ["css=#nom", "css:finder"],
+        ["xpath=//input[@id='nom']", "xpath:attributes"],
+        ["xpath=//form[@id='commandeDto']/div[2]/input", "xpath:idRelative"],
+        ["xpath=//div[2]/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "4fa934a7-a94b-4bea-a40f-37930b916330",
+      "comment": "",
+      "command": "type",
+      "target": "id=nom",
+      "targets": [
+        ["id=nom", "id"],
+        ["name=nom", "name"],
+        ["css=#nom", "css:finder"],
+        ["xpath=//input[@id='nom']", "xpath:attributes"],
+        ["xpath=//form[@id='commandeDto']/div[2]/input", "xpath:idRelative"],
+        ["xpath=//div[2]/input", "xpath:position"]
+      ],
+      "value": "Fratani"
+    }, {
+      "id": "29815055-b8d1-42e8-a0d2-3632a502da55",
+      "comment": "",
+      "command": "type",
+      "target": "id=telephone",
+      "targets": [
+        ["id=telephone", "id"],
+        ["name=telephone", "name"],
+        ["css=#telephone", "css:finder"],
+        ["xpath=//input[@id='telephone']", "xpath:attributes"],
+        ["xpath=//form[@id='commandeDto']/div[3]/input", "xpath:idRelative"],
+        ["xpath=//div[3]/input", "xpath:position"]
+      ],
+      "value": "0613903316"
+    }, {
+      "id": "45e86c92-d0c6-4f6f-bc7a-5de88d659d1b",
+      "comment": "",
+      "command": "click",
+      "target": "css=button",
+      "targets": [
+        ["css=button", "css:finder"],
+        ["xpath=//button[@type='submit']", "xpath:attributes"],
+        ["xpath=//form[@id='commandeDto']/button", "xpath:idRelative"],
+        ["xpath=//button", "xpath:position"],
+        ["xpath=//button[contains(.,'Commander')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }]
+  }, {
+    "id": "56153037-ae68-43ab-a6df-5fe7386dacf5",
+    "name": "command without pizza",
+    "commands": [{
+      "id": "e1161e9a-c0e8-4c34-860b-dee344f055a6",
+      "comment": "",
+      "command": "open",
+      "target": "/pizza-spring-0.0.1-SNAPSHOT/",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "4174a213-6136-4b6b-9e22-7ea1abfa59c7",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=Commander",
+      "targets": [
+        ["linkText=Commander", "linkText"],
+        ["css=li:nth-child(1) > a", "css:finder"],
+        ["xpath=//a[contains(text(),'Commander')]", "xpath:link"],
+        ["xpath=//nav[@id='menu']/ul/li/a", "xpath:idRelative"],
+        ["xpath=//a[contains(@href, '/pizza-spring-0.0.1-SNAPSHOT/commande')]", "xpath:href"],
+        ["xpath=//a", "xpath:position"],
+        ["xpath=//a[contains(.,'Commander')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "c5a40d70-2e5b-42ed-9762-e262b7af8f31",
+      "comment": "",
+      "command": "click",
+      "target": "id=nom",
+      "targets": [
+        ["id=nom", "id"],
+        ["name=nom", "name"],
+        ["css=#nom", "css:finder"],
+        ["xpath=//input[@id='nom']", "xpath:attributes"],
+        ["xpath=//form[@id='commandeDto']/div[2]/input", "xpath:idRelative"],
+        ["xpath=//div[2]/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "3b290edd-4c0d-466b-9fdf-fa32a73865ce",
+      "comment": "",
+      "command": "type",
+      "target": "id=nom",
+      "targets": [
+        ["id=nom", "id"],
+        ["name=nom", "name"],
+        ["css=#nom", "css:finder"],
+        ["xpath=//input[@id='nom']", "xpath:attributes"],
+        ["xpath=//form[@id='commandeDto']/div[2]/input", "xpath:idRelative"],
+        ["xpath=//div[2]/input", "xpath:position"]
+      ],
+      "value": "fratani"
+    }, {
+      "id": "f2419c81-e357-4059-ab34-a6ff943eeedf",
+      "comment": "",
+      "command": "type",
+      "target": "id=telephone",
+      "targets": [
+        ["id=telephone", "id"],
+        ["name=telephone", "name"],
+        ["css=#telephone", "css:finder"],
+        ["xpath=//input[@id='telephone']", "xpath:attributes"],
+        ["xpath=//form[@id='commandeDto']/div[3]/input", "xpath:idRelative"],
+        ["xpath=//div[3]/input", "xpath:position"]
+      ],
+      "value": "0613903316"
+    }, {
+      "id": "f2da132e-0d17-4311-80d1-b714c0aedaeb",
+      "comment": "",
+      "command": "click",
+      "target": "css=button",
+      "targets": [
+        ["css=button", "css:finder"],
+        ["xpath=//button[@type='submit']", "xpath:attributes"],
+        ["xpath=//form[@id='commandeDto']/button", "xpath:idRelative"],
+        ["xpath=//button", "xpath:position"],
+        ["xpath=//button[contains(.,'Commander')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "0d2f665d-0510-49c7-ade8-f794f580a676",
+      "comment": "",
+      "command": "assertElementPresent",
+      "target": "id=pizzaId.errors",
+      "targets": [],
+      "value": ""
+    }]
+  }, {
+    "id": "98a34e76-1ee0-401e-b72d-74f64c6e1d9b",
+    "name": "command without tel",
+    "commands": [{
+      "id": "c759444f-f6e0-42c2-a627-92f5797c2866",
+      "comment": "",
+      "command": "open",
+      "target": "/pizza-spring-0.0.1-SNAPSHOT/",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "677063b5-e87e-43b2-a138-4c7e43935561",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=Commander",
+      "targets": [
+        ["linkText=Commander", "linkText"],
+        ["css=li:nth-child(1) > a", "css:finder"],
+        ["xpath=//a[contains(text(),'Commander')]", "xpath:link"],
+        ["xpath=//nav[@id='menu']/ul/li/a", "xpath:idRelative"],
+        ["xpath=//a[contains(@href, '/pizza-spring-0.0.1-SNAPSHOT/commande')]", "xpath:href"],
+        ["xpath=//a", "xpath:position"],
+        ["xpath=//a[contains(.,'Commander')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "3de14f92-996d-467e-9f5f-3a92ae648739",
+      "comment": "",
+      "command": "addSelection",
+      "target": "id=pizzaId",
+      "targets": [
+        ["id=pizzaId", "id"],
+        ["name=pizzaId", "name"],
+        ["css=#pizzaId", "css:finder"],
+        ["xpath=//select[@id='pizzaId']", "xpath:attributes"],
+        ["xpath=//form[@id='commandeDto']/div/select", "xpath:idRelative"],
+        ["xpath=//select", "xpath:position"]
+      ],
+      "value": "label=Trois fromages"
+    }, {
+      "id": "a88e56d7-2c8a-4a47-9580-f9da9ed305b5",
+      "comment": "",
+      "command": "addSelection",
+      "target": "id=pizzaId",
+      "targets": [
+        ["id=pizzaId", "id"],
+        ["name=pizzaId", "name"],
+        ["css=#pizzaId", "css:finder"],
+        ["xpath=//select[@id='pizzaId']", "xpath:attributes"],
+        ["xpath=//form[@id='commandeDto']/div/select", "xpath:idRelative"],
+        ["xpath=//select", "xpath:position"]
+      ],
+      "value": "label=Margherita"
+    }, {
+      "id": "603cc21e-71b7-4fa4-ac08-4dcb859803f9",
+      "comment": "",
+      "command": "click",
+      "target": "id=nom",
+      "targets": [
+        ["id=nom", "id"],
+        ["name=nom", "name"],
+        ["css=#nom", "css:finder"],
+        ["xpath=//input[@id='nom']", "xpath:attributes"],
+        ["xpath=//form[@id='commandeDto']/div[2]/input", "xpath:idRelative"],
+        ["xpath=//div[2]/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "3e90d396-9e2b-4b02-9f11-26aa4029db25",
+      "comment": "",
+      "command": "type",
+      "target": "id=nom",
+      "targets": [
+        ["id=nom", "id"],
+        ["name=nom", "name"],
+        ["css=#nom", "css:finder"],
+        ["xpath=//input[@id='nom']", "xpath:attributes"],
+        ["xpath=//form[@id='commandeDto']/div[2]/input", "xpath:idRelative"],
+        ["xpath=//div[2]/input", "xpath:position"]
+      ],
+      "value": "Fratani"
+    }, {
+      "id": "4923893c-f765-42f3-ab00-bf804ada21ec",
+      "comment": "",
+      "command": "click",
+      "target": "css=button",
+      "targets": [
+        ["css=button", "css:finder"],
+        ["xpath=//button[@type='submit']", "xpath:attributes"],
+        ["xpath=//form[@id='commandeDto']/button", "xpath:idRelative"],
+        ["xpath=//button", "xpath:position"],
+        ["xpath=//button[contains(.,'Commander')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "1a56dcac-5278-4529-b175-b78c708a18b5",
+      "comment": "",
+      "command": "assertElementPresent",
+      "target": "id=telephone.errors",
+      "targets": [],
+      "value": ""
+    }]
+  }],
+  "suites": [{
+    "id": "f1fa9e9d-57a0-4d1d-8975-cc0644f3360c",
+    "name": "Default Suite",
+    "persistSession": false,
+    "parallel": false,
+    "timeout": 300,
+    "tests": ["2a1e0f60-648b-49c0-bc00-2652e8e53fbb"]
+  }],
+  "urls": ["http://localhost:8080/"],
+  "plugins": []
+}
