@@ -97,6 +97,13 @@
         ["xpath=//button[contains(.,'Commander')]", "xpath:innerText"]
       ],
       "value": ""
+    }, {
+      "id": "4833e370-6e4f-4fa5-8841-efeb4db75013",
+      "comment": "",
+      "command": "assertElementPresent",
+      "target": "id=recap-commande",
+      "targets": [],
+      "value": ""
     }]
   }, {
     "id": "56153037-ae68-43ab-a6df-5fe7386dacf5",
