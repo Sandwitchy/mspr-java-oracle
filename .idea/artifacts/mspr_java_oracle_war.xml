@@ -1,0 +1,14 @@
+<component name="ArtifactManager">
+  <artifact type="war" name="mspr-java-oracle:war">
+    <output-path>$PROJECT_DIR$/target</output-path>
+    <properties id="maven-jee-properties">
+      <options>
+        <module>mspr-java-oracle</module>
+        <packaging>war</packaging>
+      </options>
+    </properties>
+    <root id="archive" name="mspr-java-oracle-0.0.1-SNAPSHOT.war">
+      <element id="artifact" artifact-name="mspr-java-oracle:war exploded" />
+    </root>
+  </artifact>
+</component>

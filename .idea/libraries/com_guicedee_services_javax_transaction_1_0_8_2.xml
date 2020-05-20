@@ -1,0 +1,10 @@
+<component name="libraryTable">
+  <library name="com.guicedee.services:javax.transaction:1.0.8.2" type="repository">
+    <properties maven-id="com.guicedee.services:javax.transaction:1.0.8.2" />
+    <CLASSES>
+      <root url="jar://$MAVEN_REPOSITORY$/com/guicedee/services/javax.transaction/1.0.8.2/javax.transaction-1.0.8.2.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>
